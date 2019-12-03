@@ -95,8 +95,9 @@
 /* Bring in the items (a tags) */
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
+
   /* Opening speed */
-  transition: opacity 0.4s ease 0.4s; /* 0.4s delay to show links */
+  transition: opacity 0.2s ease 0.2s; /* 0.4s delay to show links */
 }
 .menu-wrap .menu {
   position: fixed;
@@ -124,7 +125,7 @@
 
   /* Transition to close the menu */
   transform: scale(0);
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
   border-radius: 10%;
 
   /* Since flex, width is being affected. To remove, set to none */
@@ -138,7 +139,7 @@
 
   /* Close */
   opacity: 0;
-  /* Closing speed */
+  /* Closing speed of a links */
   transition: opacity 0.4s ease;
 }
 
